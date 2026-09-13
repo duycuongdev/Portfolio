@@ -1,0 +1,162 @@
+/* Large screens */
+@media (max-width: 1536px) {}
+
+/* don't have to do anything */
+
+/* Medium screens */
+@media (max-width: 1280px) {
+  .resume-container {
+    padding: 0 20px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 1024px) {
+  .im-text {
+    font-size: 40px;
+    margin-bottom: -10px;
+  }
+  .fisrt-job { font-size: 46px; }
+  .hello-text { font-size: 40px; }
+
+  .bubble-right {
+    padding: 35px 50px;
+    min-width: 360px;
+  }
+
+  .skills-grid,
+  .abilities-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .experience-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 768px) {
+  .body {
+    font-size: 24px 0;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 45px;
+  }
+
+  .bubble-right,
+  .bubble-left {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    border-radius: 24px;
+    text-align: center; 
+  }
+
+  .bubble-left p {
+    justify-content: center;
+  }
+
+  .bubble-right::before,
+  .bubble-left::after {
+    display: none;
+  }
+
+  .content-info p {
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .im-text { margin-bottom: 0; }
+
+  .avatar {
+    width: 160px;
+    height: 220px;
+    box-shadow: 0 15px 0 -3px var(--color-teal);
+  }
+
+  /* change 2 columns to 1 column */
+  .main-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col-right,
+  .col-left {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .ribbon-left {
+    border-radius: var(--border-radius-sm);
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  .ribbon-left::before {
+    display: none;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .abilities-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .section-right {
+    padding-left: 25px;
+  }
+
+  .section-right::before{
+    left: -5px;
+  }
+}
+
+/* Tiny screens */
+@media (max-width: 640px) {
+  .im-text { font-size: 32px; }
+
+  .first-job { font-size: 38px;}
+
+  .skills-grid,
+  .abilities-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .the-end-box { margin: 0; }
+}
+
+/* Extra tiny screens */
+@media (max-width: 480px) {
+  .resume-container {
+    padding: 0 12px;
+  }
+
+  .first-job { font-size: 32px; }
+
+  .paper-box {
+    padding: 20px 16px;
+  }
+
+  .skills-icon {
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .abilities-icon { font-size: 28px; }
+
+  .experience-campany { font-size: 14px; }
+
+  .experience-title { font-size: 12px; }
+}

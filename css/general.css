@@ -1,0 +1,35 @@
+/* define for entire project */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.4;
+  font-size: var(--fs-body);
+  padding: 40px 20px;
+}
+
+.resume-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.colorful-link {
+  color: var(--color-teal);
+  font-weight: 500
+}
