@@ -50,21 +50,53 @@
 }
 
 /* ribbon color */
-.bg-green { background-color: var(--color-green) }
-.bg-green::before { border-color: var(--color-green) transparent transparent transparent }
-.bg-green::after { border-color: transparent transparent transparent var(--color-green) }
+.bg-green {
+  background-color: var(--color-green)
+}
 
-.bg-dark-teal { background-color: var(--color-dark-teal) }
-.bg-dark-teal::before { border-color: var(--color-dark-teal) transparent transparent transparent }
-.bg-dark-teal::after { border-color: transparent transparent transparent var(--color-dark-teal) }
+.bg-green::before {
+  border-color: var(--color-green) transparent transparent transparent
+}
 
-.bg-orange { background-color: var(--color-orange) }
-.bg-orange::before { border-color: var(--color-orange) transparent transparent transparent }
-.bg-orange::after { border-color: transparent transparent transparent var(--color-orange) }
+.bg-green::after {
+  border-color: transparent transparent transparent var(--color-green)
+}
 
-.bg-red { background-color: var(--color-red) }
-.bg-red::before { border-color: var(--color-red) transparent transparent transparent }
-.bg-red::after { border-color: transparent transparent transparent var(--color-red) }
+.bg-dark-teal {
+  background-color: var(--color-dark-teal)
+}
+
+.bg-dark-teal::before {
+  border-color: var(--color-dark-teal) transparent transparent transparent
+}
+
+.bg-dark-teal::after {
+  border-color: transparent transparent transparent var(--color-dark-teal)
+}
+
+.bg-orange {
+  background-color: var(--color-orange)
+}
+
+.bg-orange::before {
+  border-color: var(--color-orange) transparent transparent transparent
+}
+
+.bg-orange::after {
+  border-color: transparent transparent transparent var(--color-orange)
+}
+
+.bg-red {
+  background-color: var(--color-red)
+}
+
+.bg-red::before {
+  border-color: var(--color-red) transparent transparent transparent
+}
+
+.bg-red::after {
+  border-color: transparent transparent transparent var(--color-red)
+}
 
 .paper-box {
   background: var(--paper-bg);
@@ -136,12 +168,29 @@
   transform: scale(1.2);
 }
 
-.interest-item.icon-gamepad { color: var(--icon-gamepad); } 
-.interest-item.icon-tv { color: var(--icon-tv); } 
-.interest-item.icon-globe-americas { color: var(--icon-globe); } 
-.interest-item.icon-dumbbell { color: var(--icon-dumbbell); } 
-.interest-item.icon-code { color: var(--icon-code); } 
-.interest-item.icon-utensils { color: var(--icon-utensils); } 
+.interest-item.icon-gamepad {
+  color: var(--icon-gamepad);
+}
+
+.interest-item.icon-tv {
+  color: var(--icon-tv);
+}
+
+.interest-item.icon-globe-americas {
+  color: var(--icon-globe);
+}
+
+.interest-item.icon-dumbbell {
+  color: var(--icon-dumbbell);
+}
+
+.interest-item.icon-code {
+  color: var(--icon-code);
+}
+
+.interest-item.icon-utensils {
+  color: var(--icon-utensils);
+}
 
 /* right column */
 .col-right {
@@ -178,10 +227,21 @@
   z-index: 2;
 }
 
-.dot-red::before { background-color: var(--color-red) }
-.dot-green::before { background-color: var(--color-green) }
-.dot-teal::before { background-color: var(--color-teal) }
-.dot-orange::before { background-color: var(--color-orange) }
+.dot-red::before {
+  background-color: var(--color-red)
+}
+
+.dot-green::before {
+  background-color: var(--color-green)
+}
+
+.dot-teal::before {
+  background-color: var(--color-teal)
+}
+
+.dot-orange::before {
+  background-color: var(--color-orange)
+}
 
 .tag-title {
   display: inline-flex;
@@ -208,17 +268,37 @@
   border-style: solid;
 }
 
-.tag-red { background-color: var(--color-red) }
-.tag-red::before { border-color: transparent var(--color-red) transparent transparent }
+.tag-red {
+  background-color: var(--color-red)
+}
 
-.tag-green { background-color: var(--color-green) }
-.tag-green::before { border-color: transparent var(--color-green) transparent transparent }
+.tag-red::before {
+  border-color: transparent var(--color-red) transparent transparent
+}
 
-.tag-teal { background-color: var(--color-teal) }
-.tag-teal::before { border-color: transparent var(--color-teal) transparent transparent }
+.tag-green {
+  background-color: var(--color-green)
+}
 
-.tag-orange { background-color: var(--color-orange) }
-.tag-orange::before { border-color: transparent var(--color-orange) transparent transparent }
+.tag-green::before {
+  border-color: transparent var(--color-green) transparent transparent
+}
+
+.tag-teal {
+  background-color: var(--color-teal)
+}
+
+.tag-teal::before {
+  border-color: transparent var(--color-teal) transparent transparent
+}
+
+.tag-orange {
+  background-color: var(--color-orange)
+}
+
+.tag-orange::before {
+  border-color: transparent var(--color-orange) transparent transparent
+}
 
 /* Skills Grid */
 .skills-grid {
@@ -280,19 +360,57 @@
   margin-bottom: 8px;
 }
 
-.ability-icon.icon-frontend { color: var(--icon-frontend); }
-.ability-icon.icon-backend { color: var(--icon-backend); }
-.ability-icon.icon-database { color: var(--icon-database); }
-.ability-icon.icon-architecture { color: var(--icon-architecture); }
-.ability-icon.icon-testing { color: var(--icon-testing); }
-.ability-icon.icon-security { color: var(--icon-security); }
-.ability-icon.icon-performance { color: var(--icon-performance); }
-.ability-icon.icon-api { color: var(--icon-api); }
-.ability-icon.icon-git { color: var(--icon-git); }
-.ability-icon.icon-responsive { color: var(--icon-responsive); }
-.ability-icon.icon-agile { color: var(--icon-agile); }
-.ability-icon.icon-cicd { color: var(--icon-cicd); }
-.ability-icon.icon-refactor { color: var(--icon-refactor); }
+.ability-icon.icon-frontend {
+  color: var(--icon-frontend);
+}
+
+.ability-icon.icon-backend {
+  color: var(--icon-backend);
+}
+
+.ability-icon.icon-database {
+  color: var(--icon-database);
+}
+
+.ability-icon.icon-architecture {
+  color: var(--icon-architecture);
+}
+
+.ability-icon.icon-testing {
+  color: var(--icon-testing);
+}
+
+.ability-icon.icon-security {
+  color: var(--icon-security);
+}
+
+.ability-icon.icon-performance {
+  color: var(--icon-performance);
+}
+
+.ability-icon.icon-api {
+  color: var(--icon-api);
+}
+
+.ability-icon.icon-git {
+  color: var(--icon-git);
+}
+
+.ability-icon.icon-responsive {
+  color: var(--icon-responsive);
+}
+
+.ability-icon.icon-agile {
+  color: var(--icon-agile);
+}
+
+.ability-icon.icon-cicd {
+  color: var(--icon-cicd);
+}
+
+.ability-icon.icon-refactor {
+  color: var(--icon-refactor);
+}
 
 /* Experience */
 .experience-grid {
@@ -327,10 +445,14 @@
   font-size: 13px;
 }
 
-.exexperience-location
-.experience-date {
+.exexperience-location .experience-date {
   font-size: 12px;
   font-weight: 500;
+}
+
+.red-text {
+  color: var(--color-red);
+  font-weight: bold;
 }
 
 /* The End */
